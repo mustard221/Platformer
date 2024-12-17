@@ -343,7 +343,6 @@
 -analyzer:"C:/Program Files/Unity 2023.1.3f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/ObstacleCoursePack/Controller/CameraManager.cs"
 "Assets/ObstacleCoursePack/Controller/CharacterControls.cs"
-"Assets/PlayHealth.cs"
 "Assets/Scripts/Bounce.cs"
 "Assets/Scripts/FallPlat.cs"
 "Assets/Scripts/FPSDisplay.cs"

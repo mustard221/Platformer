@@ -15,7 +15,7 @@ C:/Users/laimr/Documents/GitHub/Platformer/Prototype
 -logFile
 Logs/AssetImportWorker7.log
 -srvPort
-50645
+52336
 Successfully changed project path to: C:/Users/laimr/Documents/GitHub/Platformer/Prototype
 C:/Users/laimr/Documents/GitHub/Platformer/Prototype
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,9 +49,9 @@ C:/Users/laimr/Documents/GitHub/Platformer/Prototype
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [28372] Host "[IP] 192.168.0.94 [Port] 0 [Flags] 2 [Guid] 2724247405 [EditorId] 2724247405 [Version] 1048832 [Id] WindowsEditor(7,Mustard) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [28164] Host "[IP] 192.168.0.94 [Port] 0 [Flags] 2 [Guid] 142897400 [EditorId] 142897400 [Version] 1048832 [Id] WindowsEditor(7,Mustard) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [28372] Host "[IP] 192.168.0.94 [Port] 0 [Flags] 2 [Guid] 2724247405 [EditorId] 2724247405 [Version] 1048832 [Id] WindowsEditor(7,Mustard) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [28164] Host "[IP] 192.168.0.94 [Port] 0 [Flags] 2 [Guid] 142897400 [EditorId] 142897400 [Version] 1048832 [Id] WindowsEditor(7,Mustard) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -69,7 +69,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2023.1.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2023.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2023.1.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56744
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -83,41 +83,41 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2023.1.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004299 seconds.
-- Loaded All Assemblies, in  0.341 seconds
+Registered in 0.001820 seconds.
+- Loaded All Assemblies, in  0.250 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  0.283 seconds
-Domain Reload Profiling: 622ms
-	BeginReloadAssembly (116ms)
+- Finished resetting the current domain, in  0.212 seconds
+Domain Reload Profiling: 460ms
+	BeginReloadAssembly (82ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (28ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (23ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (133ms)
-		LoadAssemblies (113ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (101ms)
+		LoadAssemblies (81ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (129ms)
-			TypeCache.Refresh (128ms)
-				TypeCache.ScanAssembly (117ms)
+		AnalyzeDomain (99ms)
+			TypeCache.Refresh (98ms)
+				TypeCache.ScanAssembly (90ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (283ms)
+	FinalizeReload (212ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (238ms)
+		SetupLoadedEditorAssemblies (181ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
+			InitializePlatformSupportModulesInManaged (6ms)
 			SetLoadedEditorAssemblies (4ms)
 			BeforeProcessingInitializeOnLoad (5ms)
-			ProcessInitializeOnLoadAttributes (175ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
+			ProcessInitializeOnLoadAttributes (130ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -138,56 +138,55 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Loaded All Assemblies, in  0.499 seconds
+- Loaded All Assemblies, in  0.354 seconds
 Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.406 seconds
-Domain Reload Profiling: 903ms
-	BeginReloadAssembly (292ms)
+- Finished resetting the current domain, in  0.322 seconds
+Domain Reload Profiling: 675ms
+	BeginReloadAssembly (199ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (16ms)
-	LoadAllAssembliesAndSetupDomain (145ms)
-		LoadAssemblies (93ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (105ms)
+		LoadAssemblies (66ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (140ms)
-			TypeCache.Refresh (136ms)
-				TypeCache.ScanAssembly (129ms)
+		AnalyzeDomain (100ms)
+			TypeCache.Refresh (97ms)
+				TypeCache.ScanAssembly (91ms)
 			ScanForSourceGeneratedMonoScriptInfo (2ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (406ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (323ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (215ms)
+		SetupLoadedEditorAssemblies (180ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
+			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (44ms)
-			ProcessInitializeOnLoadAttributes (144ms)
-			ProcessInitializeOnLoadMethodAttributes (16ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (119ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
 Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 360 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2 unused Assets / (21.2 KB). Loaded Objects now: 939.
-Memory consumption went from 82.9 MB to 82.8 MB.
-Total: 4.272900 ms (FindLiveObjects: 0.066600 ms CreateObjectMapping: 0.014300 ms MarkObjects: 4.154400 ms  DeleteObjects: 0.035700 ms)
+Unloading 359 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (21.2 KB). Loaded Objects now: 938.
+Memory consumption went from 82.9 MB to 82.9 MB.
+Total: 3.357300 ms (FindLiveObjects: 0.077300 ms CreateObjectMapping: 0.023000 ms MarkObjects: 3.233800 ms  DeleteObjects: 0.021900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/menu.cs: 6a6b6f10406332b78ded19ddc96541c7 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
@@ -195,334 +194,17 @@ AssetImportParameters requested are different than current active one (requested
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/Health.cs: e0cc46be09b95eca6156bb4ae431b815 -> 0e01c5d611b7e6f68d551fd8377c081b
+  custom:scripting/monoscript/fileName/Sound.cs: d73cf73b297d33e10c74b31e39dd7781 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 13366.823916 seconds.
-  path: Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Jump/Dirt/Pre Jump 7.wav
-  artifactKey: Guid(ac98113f36cf7154eafa80f06ffe95bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Jump/Dirt/Pre Jump 7.wav using Guid(ac98113f36cf7154eafa80f06ffe95bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4d3c8d6b6e2fb25bf76e974b4208d3b6') in 0.224981 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Crouch/Grass/GRASS - Crouch 4.wav
-  artifactKey: Guid(1b9ce505d2aa9c242a34832d3a13bc16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Crouch/Grass/GRASS - Crouch 4.wav using Guid(1b9ce505d2aa9c242a34832d3a13bc16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '37fc9983a2cf025c01d809b61f29393a') in 0.071373 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Crouch/Dirt/DIRT - Crouch 7.wav
-  artifactKey: Guid(6116984351c77384498d3b472996fbd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Crouch/Dirt/DIRT - Crouch 7.wav using Guid(6116984351c77384498d3b472996fbd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6f78ea82d0414ea609d81159dcc9477e') in 0.068987 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Run/Grass/GRASS - Run 2.wav
-  artifactKey: Guid(f4dfcf482adf74e438f5f5c51659f67e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Run/Grass/GRASS - Run 2.wav using Guid(f4dfcf482adf74e438f5f5c51659f67e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '88a8768ad30b7a67be3599da0e0665b8') in 0.068554 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Run/Dirt/DIRT - Run Short 7.wav
-  artifactKey: Guid(6be5c009b7506e347a97faf739c74ffc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Run/Dirt/DIRT - Run Short 7.wav using Guid(6be5c009b7506e347a97faf739c74ffc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a90daada8752d55bef745eaaa9d01a50') in 0.068769 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Run/Dirt/DIRT - Run 5.wav
-  artifactKey: Guid(5b5b98b0b07410b4481e899244ebb14d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Run/Dirt/DIRT - Run 5.wav using Guid(5b5b98b0b07410b4481e899244ebb14d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '90f3ca859afd8694dcd47b621278dc7a') in 0.065157 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Run/Dirt/DIRT - Run 6.wav
-  artifactKey: Guid(9fbd994fa6495954b871e3491accbc31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Run/Dirt/DIRT - Run 6.wav using Guid(9fbd994fa6495954b871e3491accbc31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'df4114a4eab4f52e474aa93fb4d6690c') in 0.066475 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
-  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f0b4fb8109d3bc0521156aa554cb9c57') in 0.064283 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Crouch/Dirt/DIRT - Crouch Short 8.wav
-  artifactKey: Guid(d83caff181abd3f4c9fb5e6d1fdd44d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Crouch/Dirt/DIRT - Crouch Short 8.wav using Guid(d83caff181abd3f4c9fb5e6d1fdd44d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2b4185c24e7abb21c44a6f69bb7256bb') in 0.073177 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Run/Dirt/DIRT - Run Short 2.wav
-  artifactKey: Guid(5988797162974c64abc76cc8f4b9aa3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Run/Dirt/DIRT - Run Short 2.wav using Guid(5988797162974c64abc76cc8f4b9aa3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '15d36d329507671f5255c21723a42ae9') in 0.063012 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Hard Walk/Dirt/DIRT - Hard Walk 3.wav
-  artifactKey: Guid(9bf01d498780b4642b841e3b00690bee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Hard Walk/Dirt/DIRT - Hard Walk 3.wav using Guid(9bf01d498780b4642b841e3b00690bee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '71d27c8362336c404f6d5b69b27bb646') in 0.068039 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Walk/Grass/GRASS - Walk short 6.wav
-  artifactKey: Guid(e541eaabea83f974ab25497620cfcb41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Walk/Grass/GRASS - Walk short 6.wav using Guid(e541eaabea83f974ab25497620cfcb41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c5d8c3fd761f92e23aa9faa2bad1d67e') in 0.064983 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Walk/Dirt/DIRT - Walk  2.wav
-  artifactKey: Guid(571a8fded24a0d04f8f288d065816616) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Walk/Dirt/DIRT - Walk  2.wav using Guid(571a8fded24a0d04f8f288d065816616) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '0a976f7ee95a0ef464b77f0cffbb54e0') in 0.063677 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
+  Time since last request: 17508.369253 seconds.
   path: Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Walk/Dirt/DIRT - Walk 6.wav
-  artifactKey: Guid(136e7f2c2d1ca1449bc8cea3230bed17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Walk/Dirt/DIRT - Walk 6.wav using Guid(136e7f2c2d1ca1449bc8cea3230bed17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b94225dfb0fbdc1922776a0c673684de') in 0.063570 seconds
+  artifactKey: Guid(136e7f2c2d1ca1449bc8cea3230bed17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Walk/Dirt/DIRT - Walk 6.wav using Guid(136e7f2c2d1ca1449bc8cea3230bed17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '839f19afec3c00631cfe9a7f52110e17') in 0.075181 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Walk/Grass/GRASS - Walk short 4.wav
-  artifactKey: Guid(7c3d50062a4c33a4d82d250520f84237) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Walk/Grass/GRASS - Walk short 4.wav using Guid(7c3d50062a4c33a4d82d250520f84237) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ed47e8c26ee598f964ce5c2d3dcfb47b') in 0.065262 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sound/Free Fantasy Music Pack By TomMusic/Free Fantasy Music Pack By TomMusic/OGG files/Loops/2 Journey LOOP TomMusic.ogg
-  artifactKey: Guid(e96e3bd5571910d4a883663448b9607f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sound/Free Fantasy Music Pack By TomMusic/Free Fantasy Music Pack By TomMusic/OGG files/Loops/2 Journey LOOP TomMusic.ogg using Guid(e96e3bd5571910d4a883663448b9607f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1211662eb9949d597eb806e967cbe533') in 0.063675 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Walk/Dirt/DIRT - Walk Short 1.wav
-  artifactKey: Guid(53e2d311c397a7746991f14eef72a48a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Walk/Dirt/DIRT - Walk Short 1.wav using Guid(53e2d311c397a7746991f14eef72a48a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'fa14e4c8abf5e43902f3678f1646cc80') in 0.054569 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Walk/Grass/GRASS - Walk short 5.wav
-  artifactKey: Guid(109bd2874cc20044b82c3f97162ded8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Walk/Grass/GRASS - Walk short 5.wav using Guid(109bd2874cc20044b82c3f97162ded8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '5944add88e045ebfe85fcd5895778656') in 0.064122 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Walk/Grass/GRASS - Walk 7.wav
-  artifactKey: Guid(de56a1d38e9204444be2d18777108a11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Walk/Grass/GRASS - Walk 7.wav using Guid(de56a1d38e9204444be2d18777108a11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '546e43cbe1309e2671a3ed2372711907') in 0.066317 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Sound/Free Fantasy Music Pack By TomMusic/Free Fantasy Music Pack By TomMusic/WAV files/Full tracks/5 A Safe Space TomMusic.wav
-  artifactKey: Guid(1798adfc57403374a8de9189704f8b5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sound/Free Fantasy Music Pack By TomMusic/Free Fantasy Music Pack By TomMusic/WAV files/Full tracks/5 A Safe Space TomMusic.wav using Guid(1798adfc57403374a8de9189704f8b5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9348590920b9cd8570c933cfa5c18a86') in 0.065511 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/Sound/Free Fantasy Music Pack By TomMusic/Free Fantasy Music Pack By TomMusic/WAV files/Loops/3 A Magic Forest LOOP TomMusic.wav
-  artifactKey: Guid(46cd466c48c15bf489130f8ea2282ccd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sound/Free Fantasy Music Pack By TomMusic/Free Fantasy Music Pack By TomMusic/WAV files/Loops/3 A Magic Forest LOOP TomMusic.wav using Guid(46cd466c48c15bf489130f8ea2282ccd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '79c1510d95f9098ab9d961029724ccfa') in 0.064055 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/Sound/Free Fantasy Music Pack By TomMusic/Free Fantasy Music Pack By TomMusic/WAV files/Loops/5 A Safe Space INTRO TomMusic.wav
-  artifactKey: Guid(32f8fc9925b52494bab695da8a9b1ad1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sound/Free Fantasy Music Pack By TomMusic/Free Fantasy Music Pack By TomMusic/WAV files/Loops/5 A Safe Space INTRO TomMusic.wav using Guid(32f8fc9925b52494bab695da8a9b1ad1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ecad3be807ad71ec92eeb453d85e2526') in 0.068154 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Crouch/Grass/GRASS - Crouch short 3.wav
-  artifactKey: Guid(eb7ca4f024f5e894bb916ba0d22ba94c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Crouch/Grass/GRASS - Crouch short 3.wav using Guid(eb7ca4f024f5e894bb916ba0d22ba94c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'fbba815e2bfbfdacb9e011407b70334a') in 0.065292 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Crouch/Dirt/DIRT - Crouch 3.wav
-  artifactKey: Guid(e2e4a7713c5a30f47a2703c3864af10b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Crouch/Dirt/DIRT - Crouch 3.wav using Guid(e2e4a7713c5a30f47a2703c3864af10b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4324f436548c632035c6e4f83074c164') in 0.065529 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Jump/Dirt/Pre Jump 4.wav
-  artifactKey: Guid(fcadef34d51c3ac43a9bc1dc901a1a3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Jump/Dirt/Pre Jump 4.wav using Guid(fcadef34d51c3ac43a9bc1dc901a1a3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '44b1386c084dc796ed57076406aa3ccd') in 0.065447 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Run/Grass/GRASS - Run 1.wav
-  artifactKey: Guid(578e9a44aa64ff54591c9486e864f578) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Run/Grass/GRASS - Run 1.wav using Guid(578e9a44aa64ff54591c9486e864f578) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd573d4bc2f5a5148f1d3edf0c8dcae1f') in 0.064160 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/ObstacleCoursePack/PhysicMaterials/Bounce.physicMaterial
-  artifactKey: Guid(50bdf91b9b06d8c459c14600af9d7a8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/ObstacleCoursePack/PhysicMaterials/Bounce.physicMaterial using Guid(50bdf91b9b06d8c459c14600af9d7a8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9fbf3f138b9a4eea31981bbaf63afe6b') in 0.017990 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Run/Dirt/DIRT - Run Short 3.wav
-  artifactKey: Guid(2f235b9ddc3c07e4caecba358749b50b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Run/Dirt/DIRT - Run Short 3.wav using Guid(2f235b9ddc3c07e4caecba358749b50b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f2363fe6b4a9bbec1cad33a7d8ab8930') in 0.064288 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.816787 seconds.
-  path: Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Walk/Dirt
-  artifactKey: Guid(8196a37cc3a8f3543afaa996a27558e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Walk/Dirt using Guid(8196a37cc3a8f3543afaa996a27558e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ae7b2338226e599723285128f6f193db') in 0.021708 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sound/Free Fantasy Music Pack By TomMusic/Free Fantasy Music Pack By TomMusic/OGG files
-  artifactKey: Guid(d5f960f6c48106d47adb5bf6c80f9a79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sound/Free Fantasy Music Pack By TomMusic/Free Fantasy Music Pack By TomMusic/OGG files using Guid(d5f960f6c48106d47adb5bf6c80f9a79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4fbb22afc5b44dc33f91e58db58ce587') in 0.017999 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/Sound/Free Fantasy Music Pack By TomMusic/__MACOSX/Free Fantasy Music Pack By TomMusic/OGG files/Loops
-  artifactKey: Guid(284efc972936b5f4cb174af0b97a0998) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sound/Free Fantasy Music Pack By TomMusic/__MACOSX/Free Fantasy Music Pack By TomMusic/OGG files/Loops using Guid(284efc972936b5f4cb174af0b97a0998) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '21093172eb8d82b4615cc6375d732741') in 0.020084 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000445 seconds.
-  path: Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Hard Walk/Dirt
-  artifactKey: Guid(53304dfac03ad7f42bb3f6a2902ce68f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Hard Walk/Dirt using Guid(53304dfac03ad7f42bb3f6a2902ce68f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd2375f8d5c9f39ee6a15a75ad91fe67d') in 0.021675 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(d8bb5683fdd724346aaf4fbc9fe5032e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes using Guid(d8bb5683fdd724346aaf4fbc9fe5032e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ff5455f21c761343ec1e2af68816c969') in 0.019283 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000466 seconds.
-  path: Assets/TextMesh Pro/Sprites
-  artifactKey: Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Sprites using Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e67bb6a0b53e8f7fbd35dcd4ecbf2c93') in 0.018644 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/TextMesh Pro/Shaders
-  artifactKey: Guid(e9f693669af91aa45ad615fc681ed29f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Shaders using Guid(e9f693669af91aa45ad615fc681ed29f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '191cd75d30b6d385a6fc2652b9b44a36') in 0.036844 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Jump/Grass
-  artifactKey: Guid(be0e389b0508c57488f854a749c8833f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sound/NA_Character Footsteps (Dirt & Grass) - Pack 1/Jump/Grass using Guid(be0e389b0508c57488f854a749c8833f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '488b5db52857e32b36e4f6fd286e7569') in 0.021067 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 2
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0

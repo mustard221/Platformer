@@ -2,24 +2,22 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class Player : CharacterControls
+public class MyPlayer : CharacterControls
 {
     public float healthAmount = 100;
-    public float fallDamageThreshold = 10f;  // Distance after which fall damage is applied
+    public float fallDamageThreshold = 10f;
     private float lastXPosition;
     private float lastYPosition;
     public Image healthBar;
 
-    // This method now calls the base class Start method
-    new void Start()
+    new void Awake()
     {
-        base.Start();  // Calls the Start method from CharacterControls for initialization
+        base.Awake();  // Calls the Awake method from CharacterControls
         lastXPosition = transform.position.x;  // Track initial X position of the player
         lastYPosition = transform.position.y;  // Track initial Y position of the player
-        UpdateHealthBar();  // Update health bar accordingly
     }
 
-    void Update()  // Removed the 'new' keyword
+    new void Update()
     {
         // Calculate fall distance only when the player is falling (checking the Y axis)
         if (!IsGrounded())  // Player is in the air
