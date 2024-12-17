@@ -4,6 +4,12 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Start.unity
+    guid: b851a48e4cf1f734095ff65ad72b68f6
+  - enabled: 1
+    path: Assets/Scenes/3D Platformer Prototyping.unity
+    guid: 49ac43b10e879d84e9dc699a689ae602
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
