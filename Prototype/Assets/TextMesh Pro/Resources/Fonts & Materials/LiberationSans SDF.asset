@@ -32,16 +32,16 @@ Material:
     m_Floats:
     - _ColorMask: 15
     - _CullMode: 0
-    - _FaceDilate: 0.72
+    - _FaceDilate: 0.62
     - _GradientScale: 10
     - _MaskSoftnessX: 0
     - _MaskSoftnessY: 0
     - _OutlineSoftness: 0.4
-    - _OutlineWidth: 0.756
+    - _OutlineWidth: 0.35
     - _PerspectiveFilter: 0.875
-    - _ScaleRatioA: 0.4361522
+    - _ScaleRatioA: 0.5778491
     - _ScaleRatioB: 1
-    - _ScaleRatioC: 0.08324995
+    - _ScaleRatioC: 0.17325
     - _ScaleX: 1
     - _ScaleY: 1
     - _ShaderFlags: 0
@@ -64,7 +64,7 @@ Material:
     m_Colors:
     - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
     - _FaceColor: {r: 0.9716981, g: 0.9716981, b: 0.9716981, a: 1}
-    - _OutlineColor: {r: 0.122641504, g: 0.09911593, b: 0.09911593, a: 1}
+    - _OutlineColor: {r: 0.7264151, g: 0.49977198, b: 0.34036428, a: 1}
     - _UnderlayColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_BuildTextureStacks: []
 --- !u!114 &11400000

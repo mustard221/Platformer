@@ -5,6 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - Ending
+  - KZ1
+  - checkp1
+  - checkp2
+  - checkp3
+  - checkp4
+  - pf1
   layers:
   - Default
   - TransparentFX
